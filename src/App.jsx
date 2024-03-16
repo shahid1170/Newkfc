@@ -8,8 +8,12 @@ import viteLogo from '/vite.svg'
 import { product } from './data/products'
 
 function App() {
-  
+
   return (
+    <div className="banner-image">
+     <img src="/bg.png" className="card-img-top" alt="..."/>
+     
+    <hr />   
     
     <div className="row row-cols-1 row-cols-md-4 g-4">
       {product.map(product => (
@@ -29,7 +33,8 @@ function App() {
       ))}
 
     </div>
-
+    </div> 
+    
 
   )
 }
