@@ -2,7 +2,7 @@ export const product = [
     {
       id: 1,
       title: "Zinger1",
-      desc: "This brings a YOCHUT with crunch tasty butter between a sesame seed bun",
+      desc: "This Provides a YOCHUT with crunch tasty butter between a sesame seed bun",
       price: 350,
       image: "/2.jpeg"
     },
