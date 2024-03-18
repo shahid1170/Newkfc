@@ -6,10 +6,12 @@ import viteLogo from '/vite.svg'
 
 // import {result} from "./mylib/data"
 import { product } from './data/products'
+import kfcHeader from './components/header'
 
 function App() {
 
   return (
+    <><kfcHeader />
     <div className="banner-image" style={{margintop:"50px;"}}>
      <img src="/bg.png" className="card-img-top" alt="..."/>
      
@@ -40,6 +42,7 @@ function App() {
 
     </div>
     </div> 
+    </>
     
 
   )
