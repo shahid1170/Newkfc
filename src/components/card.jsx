@@ -1,7 +1,7 @@
 import { product } from "../data/products"
 function ImgCard(){
     return(
-        <div className="row row-cols-1 row-cols-md-4 g-4">
+        <div className="row row-cols-1 row-cols-md-4 g-4" >
       {product.map(product => (
         <div className="col" key={product.id}>
           <div className="card" >

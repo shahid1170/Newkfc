@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-// import './App.css'
+import './App.css'
 // import "./mystyle.css"
 
 // import {result} from "./mylib/data"
@@ -14,9 +14,9 @@ function App() {
 
   return (
     <div>
-     <KfcHeader/>
-      <ImgTop/>
-      <ImgCard/>       
+     <KfcHeader className="bottom"/>
+      <ImgTop className="bottom"/>
+      <ImgCard class card/>       
     </div> 
   
     
