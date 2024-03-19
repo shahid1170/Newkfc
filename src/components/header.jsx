@@ -1,4 +1,4 @@
-function kfcHeader() {
+function KfcHeader() {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
@@ -38,4 +38,4 @@ function kfcHeader() {
 </nav >
     )
 }
-export default kfcHeader;
+export default KfcHeader;
